@@ -16,3 +16,7 @@ body {
   display: flex;
   gap: 20px;
 }
+
+.projectImage {
+  width: 400px;
+}
