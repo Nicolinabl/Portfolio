@@ -1,4 +1,18 @@
 body {
-  background: pink;
-  color: hotpink;
+  background: rgb(247, 245, 245);
+  color: rgb(3, 0, 1);
+}
+
+.introSection {
+  display: flex;
+}
+
+.profileImage {
+  width: 500px;
+  border-radius: 50%;
+}
+
+.skillsSection {
+  display: flex;
+  gap: 20px;
 }
