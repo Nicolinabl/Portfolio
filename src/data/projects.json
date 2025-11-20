@@ -2,27 +2,56 @@
   "projects": [
     {
       "name": "Business site",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
+      "image": "",
       "tags": [
         "HTML5",
-        "CSS3",
-        "JavaScript"
+        " CSS3",
+        " JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "description":"Dummy model agency website, built this to explore responsive design, interactivity and layout techniques. Site includes functional navigation bar, hamburger menu on smaller screens, interactive buttons that change theme, form with submission to httpbin.",
+      "netlify": "https://willz-models.netlify.app/",
+      "github": "https://github.com/Nicolinabl/Nicolina-business-site?tab=readme-ov-file"
     },
     {
       "name": "Weather app",
-      "image": "https://images.unsplash.com/photo-1520792532857-293bd046307a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80",
+      "image": "",
       "tags": [
         "HTML5",
-        "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "APIs"
+        " CSS3 ",
+        " JavaScript",
+        " TypeScript",
+        " SMHI API"
       ],
-      "netlify": "link",
-      "github": "link"
+      "description": "Functioning weather app collecting real time data using SMHI open API. Displaying real time temperature for Stockholm,  different messages and colors depending on weather.",
+      "netlify": "https://weather-app-rock-3.netlify.app/",
+      "github": "https://weather-app-rock-3.netlify.app/"
+    },
+    {
+      "name": "Event Finder",
+      "image": "",
+      "tags": [
+        "HTML5",
+        " CSS3 ",
+        " JavaScript",
+        " TypeScript "
+      ],
+      "description": "Event finder page. Focus while building this site was accessibility, following WCAG AA standards.",
+      "netlify": "https://eventacc.netlify.app/",
+      "github": "https://github.com/qabalany/js-project-accessibility"
+    },
+    {
+      "name": "Recipe Library",
+      "image": "",
+      "tags": [
+        "HTML5",
+        " CSS3",
+        " JavaScript",
+        " TypeScript",
+        " APIs"
+      ],
+      "description":"Recipe app fetching recipes from spoonacular API. Options to display recipes according to chosen filters and sorting options. Taps into saved backup collection of recipes if daily quota of API is reached.  HTML, CSS, JavaScript, Spoonacular API.",
+      "netlify": "https://nicolina-recipe-library.netlify.app/",
+      "github": "https://github.com/Nicolinabl/js-project-recipe-library?tab=readme-ov-file"
     }
   ]
 }

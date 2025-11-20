@@ -1,7 +1,10 @@
 import {Introduction} from './Components/Introduction'
 import { Skills } from './Components/Skills'
 import { ProjectSection } from './Components/ProjectSection'
-import weatherApp from './Assets/weatherApp.png'
+import { TechSection } from './Components/TechSection'
+import { MyJourneySection } from './Components/MyJourneySection'
+import { ContactSection } from './Components/ContactSection'
+
 
 export const App = () => {
   return (
@@ -9,6 +12,9 @@ export const App = () => {
       <Introduction />
       <Skills />
       <ProjectSection />
+      <TechSection />
+      <MyJourneySection />
+      <ContactSection />
     </>
   )
 }
