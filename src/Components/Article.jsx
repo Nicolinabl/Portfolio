@@ -1,4 +1,4 @@
-export const Articles = (props) => {
+export const Article = (props) => {
   return(
     <div>
     <img src={props.imgSrc} alt={props.title} className="articleImage"/>

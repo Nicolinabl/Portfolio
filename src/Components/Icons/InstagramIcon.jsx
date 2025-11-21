@@ -1,5 +1,5 @@
 
-import instagramIcon from '../Assets/instagramIcon.png'
+import instagramIcon from '../../Assets/instagramIcon.png'
 
 export const InstagramIcon = () => {
   return (

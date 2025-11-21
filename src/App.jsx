@@ -1,20 +1,13 @@
-import {Introduction} from './Components/Introduction'
-import { Skills } from './Components/Skills'
-import { ProjectSection } from './Components/ProjectSection'
-import { TechSection } from './Components/TechSection'
-import { MyJourneySection } from './Components/MyJourneySection'
-import { ContactSection } from './Components/ContactSection'
-
+import { Header } from './Components/Page structure/Header'
+import { MainSection } from './Components/Page structure/MainSection'
+import { Footer } from './Components/Page structure/Footer'
 
 export const App = () => {
   return (
     <>
-      <Introduction />
-      <Skills />
-      <ProjectSection />
-      <TechSection />
-      <MyJourneySection />
-      <ContactSection />
+      <Header />
+      <MainSection />
+      <Footer />
     </>
   )
 }

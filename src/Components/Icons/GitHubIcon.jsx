@@ -1,4 +1,4 @@
-import gitHubIcon from '../Assets/gitHubIcon.png'
+import gitHubIcon from '../../Assets/gitHubIcon.png'
 
 export const GitHubIcon = () => {
   return (

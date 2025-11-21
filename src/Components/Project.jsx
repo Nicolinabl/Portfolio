@@ -1,7 +1,7 @@
-import { FilledButton } from './FilledButton'
-import { ClearButton } from './ClearButton'
+import { FilledButton } from '../Components/Buttons/FilledButton'
+import { ClearButton } from '../Components/Buttons/ClearButton'
 
-export const Projects = (props) => {
+export const Project = (props) => {
   return (
     <div>
       <img src={props.imgSrc} alt={props.name} className='projectImage' />

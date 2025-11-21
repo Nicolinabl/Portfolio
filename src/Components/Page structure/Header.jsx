@@ -1,9 +1,9 @@
-import { IconCollection } from './IconCollection'
-import { ProfileImage } from './ProfileImage'
+import { IconCollection } from '../Icons/IconCollection'
+import { ProfileImage } from '../ProfileImage'
 
-export const Introduction = () => {
+export const Header = () => {
   return (
-    <div className='introSection'>
+    <header className='introSection'>
     <div>
       <h1>I am Nicolina Bäcklin Löwenberg</h1>
       <h2>Web Developer</h2>
@@ -13,6 +13,6 @@ export const Introduction = () => {
     <div>
       <ProfileImage />
     </div>
-    </div>
+    </header>
   )
 }

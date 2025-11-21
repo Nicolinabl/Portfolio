@@ -1,7 +1,7 @@
-import { IconCollection } from "./IconCollection"
+import { IconCollection } from "./Icons/IconCollection"
 import { ProfileImage } from './ProfileImage'
 
-export const ContactSection = () => {
+export const Contact = () => {
   return (
     <div>
       <ProfileImage />

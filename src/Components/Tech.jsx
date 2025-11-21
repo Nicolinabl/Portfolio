@@ -1,4 +1,4 @@
-export const TechSection = () => {
+export const Tech = () => {
   return (
     <div>
     <h2>Tech</h2>

@@ -1,4 +1,4 @@
-import linkedinIcon from '../Assets/linkedinIcon.png'
+import linkedinIcon from '../../Assets/linkedinIcon.png'
 
 export const LinkedinIcon = () => {
   return (
