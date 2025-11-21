@@ -1,7 +1,9 @@
-export const Skills = () => {
+import { H2 } from '../typography/h2'
+
+export const SkillsSection = () => {
   return (
     <>
-    <h2>Skills</h2>
+    <H2 title='Skills' />
 
     <div className="skillsSection">
     <div>

@@ -1,5 +1,5 @@
-import { FilledButton } from '../Components/Buttons/FilledButton'
-import { ClearButton } from '../Components/Buttons/ClearButton'
+import { FilledButton } from '../buttons/FilledButton'
+import { ClearButton } from '../buttons/ClearButton'
 
 export const Project = (props) => {
   return (

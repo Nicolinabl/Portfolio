@@ -1,9 +1,10 @@
-import { Project } from './Project'
-import weatherApp from '../Assets/weatherApp.png'
-import recipeLibrary from '../Assets/recipeLibrary.png'
-import businessSite from '../Assets/businessSite.png'
-import eventFinder from '../Assets/eventFinder.png'
-import data from '../data/projects.json'
+import { Project } from '../cards/Project'
+import weatherApp from '../../Assets/weatherApp.png'
+import recipeLibrary from '../../Assets/recipeLibrary.png'
+import businessSite from '../../Assets/businessSite.png'
+import eventFinder from '../../Assets/eventFinder.png'
+import data from '../../data/projects.json'
+import { H2 } from '../typography/h2'
 
 const images = [
   weatherApp, 
@@ -12,10 +13,10 @@ const images = [
   eventFinder
 ]
 
-export const ProjectsCollection = () => {
+export const ProjectsSection = () => {
   return (
     <div>
-      <h2>Featured projects</h2>
+      <H2 title='Featured projects' />
 
       {data.projects.map((project, index) => (
         <Project

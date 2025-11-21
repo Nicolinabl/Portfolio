@@ -1,11 +1,12 @@
-import { Article } from './Article'
-import workMe from '../Assets/workMe.jpg'
-import { ClearButton } from './Buttons/ClearButton'
+import { Article } from '../cards/Article'
+import workMe from '../../Assets/workMe.jpg'
+import { ClearButton } from '../buttons/ClearButton'
+import { H2 } from '../typography/h2'
 
-export const MyJourney = () => {
+export const MyJourneySection = () => {
   return (
     <div>
-    <h2>My Journey</h2>
+    <H2 title='My Journey' />
     <Article imgSrc={workMe} date='1 nov 2025' title='When worlds collide' text='I år gjorde jag det jag aldrig trodde att jag skulle göra. Jag lämnade min trygga punkt, fantastiska kollegor och en arbetsplats som kändes som hemma. Jag lämnade den värld jag trodde var min enda, för att ge ett nytt intresse chansen att växa.'/>
     <ClearButton label='Read Article'/>
     </div>

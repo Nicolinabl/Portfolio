@@ -1,6 +1,6 @@
-import { Header } from './Components/Page structure/Header'
-import { MainSection } from './Components/Page structure/MainSection'
-import { Footer } from './Components/Page structure/Footer'
+import { Header } from './Components/layout/Header'
+import { MainSection } from './Components/layout/MainSection'
+import { Footer } from './Components/layout/Footer'
 
 export const App = () => {
   return (
