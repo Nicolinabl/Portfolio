@@ -3,19 +3,6 @@ body {
   color: rgb(3, 0, 1);
 }
 
-.introSection {
-  display: flex;
-}
-
-.profileImage {
-  width: 500px;
-  border-radius: 50%;
-}
-
-.skillsSection {
-  display: flex;
-  gap: 20px;
-}
 
 .projectImage,
 .articleImage {

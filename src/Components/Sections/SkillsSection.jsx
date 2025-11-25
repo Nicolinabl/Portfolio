@@ -1,49 +1,38 @@
 import { H2 } from '../typography/h2'
+import { Skills } from '../cards/Skills'
 
 export const SkillsSection = () => {
+  const skillsData = [
+    {
+      title: 'Code',
+      items: ['JavaScript ES6', 'TypeScript', 'HTML5', 'CSS3']
+    },
+    {
+      title: 'Toolbox',
+      items: ['Figma', 'Notion', 'GitHub', 'Slack', 'Jira']
+    },
+    {
+      title: 'Upcoming',
+      items: ['Node.js', 'React']
+    },
+    {
+      title: 'More',
+      items: ['Agile Methodology', 'Accessibility (WCAG)', 'Team coordination']
+    }
+  ]
+
   return (
     <>
-    <H2 title='Skills' />
-
-    <div className="skillsSection">
+    <H2>Skills</H2>
     <div>
-      <h3>Code</h3>
-      <ul>
-        <li>JavaScript ES6</li>
-        <li>TypeScript</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-      </ul>
-    </div>
-
-    <div>
-      <h3>Toolbox</h3>
-      <ul>
-        <li>Figma</li>
-        <li>Notion</li>
-        <li>GitHub</li>
-        <li>Slack</li>
-        <li>Jira</li>
-      </ul>
+        {skillsData.map((category, index) => (
+          <Skills
+            key={index} 
+            title={category.title} 
+            items={category.items} 
+          />
+        ))}
       </div>
-
-    <div>
-      <h3>Upcoming</h3>
-      <ul>
-        <li>Node.js</li>
-        <li>React</li>
-      </ul>
-      </div>
-
-    <div>
-      <h3>More</h3>
-      <ul>
-        <li>Agile Methodology</li>
-        <li>Accessibility (wcag)</li>
-        <li>Team coordination</li>
-      </ul>
-      </div>
-    </div>
     </>
   )
 }

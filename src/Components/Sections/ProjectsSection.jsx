@@ -7,16 +7,16 @@ import data from '../../data/projects.json'
 import { H2 } from '../typography/h2'
 
 const images = [
-  weatherApp, 
-  recipeLibrary, 
-  businessSite, 
-  eventFinder
+  businessSite,
+  weatherApp,
+  eventFinder, 
+  recipeLibrary
 ]
 
 export const ProjectsSection = () => {
   return (
     <div>
-      <H2 title='Featured projects' />
+      <H2>Featured projects</H2>
 
       {data.projects.map((project, index) => (
         <Project
@@ -32,29 +32,3 @@ export const ProjectsSection = () => {
   )
 }
 
-
-{/* <Project
-        imgSrc={businessSite}
-        name={data.projects[0].name}
-        description={`${data.projects[0].description} Built using ${data.projects[0].tags}`}
-        netlify={data.projects[0].netlify}
-        github={data.projects[0].github}/>
-    <Project
-        imgSrc={weatherApp}
-        name={data.projects[1].name}
-        description={`${data.projects[1].description} Built using ${data.projects[1].tags}`}
-        netlify={data.projects[1].netlify}
-        github={data.projects[1].github}/>
-    <Project
-        imgSrc={eventFinder}
-        name={data.projects[2].name}
-        description={`${data.projects[2].description} Built using ${data.projects[2].tags}`} 
-        netlify={data.projects[2].netlify}
-        github={data.projects[2].github}/>
-    <Project
-        imgSrc={recipeLibrary}
-        name={data.projects[3].name}
-        description={`${data.projects[3].description} Built using ${data.projects[3].tags}`} 
-        netlify={data.projects[3].netlify}
-        github={data.projects[3].github}/>
-    </div> */}

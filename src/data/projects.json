@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "Business site",
-      "image": "",
+      "image": "./Assets/businessSite.png",
       "tags": [
         "HTML5",
         " CSS3",
@@ -24,7 +24,7 @@
       ],
       "description": "Functioning weather app collecting real time data using SMHI open API. Displaying real time temperature for Stockholm,  different messages and colors depending on weather.",
       "netlify": "https://weather-app-rock-3.netlify.app/",
-      "github": "https://weather-app-rock-3.netlify.app/"
+      "github": "https://github.com/Nicolinabl/js-project-weather-app"
     },
     {
       "name": "Event Finder",
@@ -51,7 +51,7 @@
       ],
       "description":"Recipe app fetching recipes from spoonacular API. Options to display recipes according to chosen filters and sorting options. Taps into saved backup collection of recipes if daily quota of API is reached.  HTML, CSS, JavaScript, Spoonacular API.",
       "netlify": "https://nicolina-recipe-library.netlify.app/",
-      "github": "https://github.com/Nicolinabl/js-project-recipe-library?tab=readme-ov-file"
+      "github": "https://github.com/Nicolinabl/js-project-recipe-library"
     }
   ]
 }
