@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Button = styled.a`
   display: flex;
   width: 192px;
   height: 48px;
@@ -14,12 +14,23 @@ const Button = styled.button`
   font-family: Poppins;
   color: #505b4d;
   font-size: 18px;
-  Font-weight: 500;
+  font-weight: 500;
+  text-decoration: none;
 
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 `
 
 export const ClearButton = (props) => {
   return (
-  <a href={props.href} target="_blank"><Button>{props.label}</Button></a>
+  <Button href={props.href} target="_blank">{props.label}</Button>
   )
 }
+
+// export const ClearButton = (props) => {
+//   return (
+//   <a href={props.href} target="_blank"><Button>{props.label}</Button></a>
+//   )
+// }

@@ -6,11 +6,11 @@ import styled from 'styled-components'
 
 const ProjectTemplate = styled.div`
   display: flex;
-width: 400px;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-gap: 24px;
+  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
 `
 
 const Buttons = styled.div`

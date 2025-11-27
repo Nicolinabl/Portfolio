@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Button = styled.a`
   display: flex;
   width: 192px;
   height: 48px;
@@ -8,21 +8,27 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  gap: 16;
+  gap: 16px;
   background: #505b4d;
   border: none;
+  text-decoration: none;
 
   font-family: Poppins;
   font-style: normal;
   line-height: normal;
   font-size: 18px;
-  Font-weight: 500;
-  color: #FFFFFF
+  font-weight: 500;
+  color: #FFFFFF;
 
+  &:hover {
+    background-color: black;
+    color: white;
+  }
 `
 
 export const FilledButton = (props) => {
   return (
-  <a href={props.href} target="_blank"><Button>{props.label}</Button></a>
+  <Button href={props.href} target="_blank">{props.label}</Button>
   )
 }
+

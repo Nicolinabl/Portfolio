@@ -11,5 +11,7 @@ const GlobalStyle = createGlobalStyle`
     background: white;
     max-width: 1440px;
   }
+
+
 `
 export default GlobalStyle
