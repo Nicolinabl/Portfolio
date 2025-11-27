@@ -5,6 +5,7 @@ const BodyText = styled.p`
   font-size: ${(props) => props.size || '18px'};
   color: #000;
   font-weight: 400;
+  margin: 0;
 `
 
 export const Body = ({ children, size }) => {

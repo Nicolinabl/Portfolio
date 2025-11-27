@@ -1,11 +1,15 @@
 import { createGlobalStyle } from "styled-components" 
 
 const GlobalStyle = createGlobalStyle`
-  body{
-    margin: 0;
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0 auto;
     padding: 0;
-    background: pink;
+    background: white;
+    max-width: 1440px;
   }
 `
-
 export default GlobalStyle

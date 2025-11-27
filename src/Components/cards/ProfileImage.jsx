@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import me from '../../Assets/me.JPG'
 
 const ProfileImageStyling = styled.img`
-  width: 500px;
+  width: 440px;
   border-radius: 50%;
-  border: 5px solid #FD6F00;
+  border: 5px solid #505b4d;
 `
 
 export const ProfileImage = () => {

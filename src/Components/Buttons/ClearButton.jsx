@@ -8,11 +8,11 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   border-radius: 12px;
-  border: 2px solid #FD6F00;
+  border: 2px solid #505b4d;
   background: #FFF;
 
   font-family: Poppins;
-  color: #FD6F00;
+  color: #505b4d;
   font-size: 18px;
   Font-weight: 500;
 

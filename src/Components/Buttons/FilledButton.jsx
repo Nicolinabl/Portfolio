@@ -9,7 +9,7 @@ const Button = styled.button`
   align-items: center;
   border-radius: 12px;
   gap: 16;
-  background: #FD6F00;
+  background: #505b4d;
   border: none;
 
   font-family: Poppins;
