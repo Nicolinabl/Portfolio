@@ -1,7 +1,7 @@
 import { Body } from '../typography/body'
 import { H3 } from '../typography/h3'
 import styled from 'styled-components'
-import { ClearButton } from '../buttons/ClearButton'
+import { ClearButton } from '../buttons/ClearButton.jsx'
 
 const ArticleContainer = styled.div`
   display: flex;

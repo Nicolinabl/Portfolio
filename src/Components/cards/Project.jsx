@@ -1,5 +1,5 @@
-import { FilledButton } from '../../Components/buttons/FilledButton'
-import { ClearButton } from '../../Components/buttons/ClearButton'
+import { FilledButton } from '../buttons/FilledButton.jsx'
+import { ClearButton } from '../buttons/ClearButton.jsx'
 import { Body } from '../typography/body'
 import { H3 } from '../typography/h3'
 import styled from 'styled-components'

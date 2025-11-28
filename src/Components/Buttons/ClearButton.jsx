@@ -29,8 +29,4 @@ export const ClearButton = (props) => {
   )
 }
 
-// export const ClearButton = (props) => {
-//   return (
-//   <a href={props.href} target="_blank"><Button>{props.label}</Button></a>
-//   )
-// }
+
