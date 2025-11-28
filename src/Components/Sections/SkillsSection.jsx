@@ -1,4 +1,4 @@
-import { H2 } from '../typography/H2'
+import { H2 } from '../typography/h2'
 import { Skills } from '../cards/Skills'
 import styled from 'styled-components'
 

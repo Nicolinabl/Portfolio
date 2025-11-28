@@ -1,5 +1,5 @@
-import { Body } from '../typography/Body'
-import { H3 } from '../typography/H3'
+import { Body } from '../typography/body'
+import { H3 } from '../typography/h3'
 import styled from 'styled-components'
 
 const SkillsContainer = styled.div`

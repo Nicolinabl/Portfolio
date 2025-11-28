@@ -4,7 +4,7 @@ import recipeLibrary from '../../Assets/recipeLibrary.png'
 import businessSite from '../../Assets/businessSite.png'
 import eventFinder from '../../Assets/eventFinder.png'
 import data from '../../data/projects.json'
-import { H2 } from '../typography/H2'
+import { H2 } from '../typography/h2'
 import styled from 'styled-components'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"

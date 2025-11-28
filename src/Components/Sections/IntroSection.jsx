@@ -1,7 +1,7 @@
 import { IconCollection } from '../Icons/IconCollection'
 import { ProfileImage } from '../cards/ProfileImage'
-import { H1 } from '../typography/H1'
-import { Body } from '../typography/Body'
+import { H1 } from '../typography/h1'
+import { Body } from '../typography/body'
 import styled from 'styled-components'
 
 const Hero = styled.header`
