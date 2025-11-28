@@ -3,7 +3,7 @@ import { ProjectsSection } from '../Sections/ProjectsSection'
 import { TechSection } from '../Sections/TechSection'
 import { MyJourneySection } from '../Sections/MyJourneySection'
 
-export const MainSection = () => {
+export const Main = () => {
   return (
     <main>
       <SkillsSection />

@@ -1,6 +1,7 @@
 import { Body } from '../typography/body'
 import { H3 } from '../typography/h3'
 import styled from 'styled-components'
+import { ClearButton } from '../buttons/ClearButton'
 
 const ArticleContainer = styled.div`
   display: flex;
@@ -14,10 +15,11 @@ const ArticleContainer = styled.div`
 export const Article = (props) => {
   return(
     <ArticleContainer>
-    <img src={props.imgSrc} alt={props.title} className="articleImage"/>
-    <Body>{props.date}</Body>
-    <H3>{props.title} </H3>
-    <Body>{props.text}</Body>
+      <img src={props.imgSrc} alt={props.title} className="articleImage"/>
+      <Body>{props.date}</Body>
+      <H3>{props.title} </H3>
+      <Body>{props.text}</Body>
+      <ClearButton label='Read Article'/>
     </ArticleContainer>
   )
 }

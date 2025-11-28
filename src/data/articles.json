@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "name": "When worlds collide",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur dignissimos facilis veritatis nulla commodi repellat, excepturi deleniti sequi deserunt molestiae eligendi ad in consequatur. Impedit corrupti reprehenderit eos voluptate!",
+      "link": "https://www.linkedin.com/in/nicolina-b%C3%A4cklin-l%C3%B6wenberg/recent-activity/all/"
+    },
+    {
+      "name": "My journey",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur dignissimos facilis veritatis nulla commodi repellat, excepturi deleniti sequi deserunt molestiae eligendi ad in consequatur. Impedit corrupti reprehenderit eos voluptate!",
+      "link": ""
+    },
+    {
+      "name": "My first project",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur dignissimos facilis veritatis nulla commodi repellat, excepturi deleniti sequi deserunt molestiae eligendi ad in consequatur. Impedit corrupti reprehenderit eos voluptate!",
+      "link": ""
+    },
+    {
+      "name": "My thoughts on code",
+      "image": "",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aspernatur dignissimos facilis veritatis nulla commodi repellat, excepturi deleniti sequi deserunt molestiae eligendi ad in consequatur. Impedit corrupti reprehenderit eos voluptate!",
+      "link": ""
+    }
+  ]
+}

@@ -24,7 +24,6 @@ export const Project = (props) => {
       <img src={props.imgSrc} alt={props.name} className='projectImage' />
       <H3>{props.name}</H3>
       <Body>{props.description}</Body>
-
       <Buttons>
         <FilledButton label='Live Demo' href={props.netlify}/>
         <ClearButton label='View Code' href={props.github}/>

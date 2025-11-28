@@ -3,6 +3,13 @@ import workMe from '../../Assets/workMe.jpg'
 import { ClearButton } from '../buttons/ClearButton'
 import { H2 } from '../typography/h2'
 import styled from 'styled-components'
+import cat from '../../Assets/cat.png'
+import family from '../../Assets/family.png'
+import beach from '../../Assets/beach.png'
+import data from '../../data/articles.json'
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const MyJourneyContainer = styled.div`
   display: flex;
@@ -13,22 +20,42 @@ const MyJourneyContainer = styled.div`
   align-self: stretch;
 `
 
-const ArticleContent = styled.div`
-  display: flex;
-  gap: 64px;
-`
+const images = [
+  workMe,
+  beach,
+  family,
+  cat,
+]
 
 export const MyJourneySection = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 786,
+        settings: { slidesToShow: 1}
+      }
+    ]
+  }
+
   return (
     <MyJourneyContainer>
     <H2>My Journey</H2>
-    <ArticleContent>
-      <Article imgSrc={workMe} date='1 nov 2025' title='When worlds collide' text='I år gjorde jag det jag aldrig trodde att jag skulle göra. Jag lämnade min trygga punkt, fantastiska kollegor och en arbetsplats som kändes som hemma. Jag lämnade den värld jag trodde var min enda, för att ge ett nytt intresse chansen att växa.'/>
-      <Article imgSrc={workMe} date='1 nov 2025' title='When worlds collide' text='I år gjorde jag det jag aldrig trodde att jag skulle göra. Jag lämnade min trygga punkt, fantastiska kollegor och en arbetsplats som kändes som hemma. Jag lämnade den värld jag trodde var min enda, för att ge ett nytt intresse chansen att växa.'/>
-      <Article imgSrc={workMe} date='1 nov 2025' title='When worlds collide' text='I år gjorde jag det jag aldrig trodde att jag skulle göra. Jag lämnade min trygga punkt, fantastiska kollegor och en arbetsplats som kändes som hemma. Jag lämnade den värld jag trodde var min enda, för att ge ett nytt intresse chansen att växa.'/>
-      <Article imgSrc={workMe} date='1 nov 2025' title='When worlds collide' text='I år gjorde jag det jag aldrig trodde att jag skulle göra. Jag lämnade min trygga punkt, fantastiska kollegor och en arbetsplats som kändes som hemma. Jag lämnade den värld jag trodde var min enda, för att ge ett nytt intresse chansen att växa.'/>
-    </ArticleContent>
-    <ClearButton label='Read Article'/>
+        <Slider {...settings} style={{ width: '100%', gap: '32px'}}>
+          {data.articles.map((article, index) => (
+            <Article
+              key={article.name}
+              imgSrc={images[index]}
+              title={article.name}
+              text={`${article.description}`}
+              link= {article.link}
+              />
+          ))}
+        </Slider>
     </MyJourneyContainer>
   )
 }

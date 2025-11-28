@@ -6,9 +6,9 @@ import eventFinder from '../../Assets/eventFinder.png'
 import data from '../../data/projects.json'
 import { H2 } from '../typography/h2'
 import styled from 'styled-components'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 const ProjectContainer = styled.div`
   display: flex;
