@@ -1,4 +1,4 @@
-import { H2 } from '../Typography/h2'
+import { H2 } from '../Typography/H2'
 import { Body } from '../Typography/Body'
 import styled from 'styled-components'
 
