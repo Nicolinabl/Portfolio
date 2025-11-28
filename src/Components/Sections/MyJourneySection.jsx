@@ -1,6 +1,6 @@
-import { Article } from '../cards/Article'
+import { Article } from '../Cards/Article'
 import workMe from '../../Assets/workMe.jpg'
-import { H2 } from '../typography/h2'
+import { H2 } from '../Typography/h2'
 import styled from 'styled-components'
 import cat from '../../Assets/cat.png'
 import family from '../../Assets/family.png'
