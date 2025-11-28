@@ -12,6 +12,7 @@ const ArticleContainer = styled.div`
   gap: 24px;
 `
 
+
 export const Article = (props) => {
   return(
     <ArticleContainer>
