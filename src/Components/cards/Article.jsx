@@ -1,4 +1,4 @@
-import { Body } from '../Typography/body.jsx'
+import { Body } from '../Typography/Body.jsx'
 import { H3 } from '../Typography/h3.jsx'
 import styled from 'styled-components'
 import { ClearButton } from '../Buttons/ClearButton.jsx'

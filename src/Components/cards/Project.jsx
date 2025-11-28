@@ -1,6 +1,6 @@
 import { FilledButton } from '../buttons/FilledButton.jsx'
 import { ClearButton } from '../buttons/ClearButton.jsx'
-import { Body } from '../Typography/body.jsx'
+import { Body } from '../Typography/Body.jsx'
 import { H3 } from '../Typography/h3.jsx'
 import styled from 'styled-components'
 

@@ -1,4 +1,4 @@
-import { Body } from '../Typography/body'
+import { Body } from '../Typography/Body'
 import { H3 } from '../Typography/h3'
 import styled from 'styled-components'
 
