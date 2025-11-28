@@ -1,5 +1,5 @@
-import { H2 } from '../Typography/H2'
-import { Body } from '../Typography/Body'
+import { H2 } from '../typography/H2'
+import { Body } from '../typography/Body'
 import styled from 'styled-components'
 
 const TechContainer = styled.div`

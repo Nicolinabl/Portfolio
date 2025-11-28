@@ -1,7 +1,7 @@
 import { FilledButton } from '../buttons/FilledButton.jsx'
 import { ClearButton } from '../buttons/ClearButton.jsx'
-import { Body } from '../Typography/Body.jsx'
-import { H3 } from '../Typography/h3.jsx'
+import { Body } from '../typography/Body.jsx'
+import { H3 } from '../typography/H3.jsx'
 import styled from 'styled-components'
 
 const ProjectTemplate = styled.div`

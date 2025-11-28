@@ -1,7 +1,7 @@
 import { IconCollection } from "../Icons/IconCollection"
 import { ProfileImage } from '../cards/ProfileImage'
-import { H2 } from '../typography/h2'
-import { Body } from '../typography/body'
+import { H2 } from '../typography/H2'
+import { Body } from '../typography/Body'
 import styled from 'styled-components'
 
 const ContactContainer = styled.div`
