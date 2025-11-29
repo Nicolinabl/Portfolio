@@ -9,6 +9,10 @@ const ThirdHeading = styled.h3`
   line-height: normal;
   margin: 0;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+  }
 `
 
 export const H3 = ({children}) => {

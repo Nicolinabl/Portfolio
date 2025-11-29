@@ -6,6 +6,10 @@ const BodyText = styled.p`
   color: #000;
   font-weight: 400;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+}
 `
 
 export const Body = ({ children, size }) => {

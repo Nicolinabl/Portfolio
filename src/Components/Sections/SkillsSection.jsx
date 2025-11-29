@@ -13,9 +13,15 @@ const SkillsContainer = styled.div`
 
 const SkillsColumns = styled.div`
   display: flex;
-  width: 982px;
+  max-width: 982px;
   justify-content: center;
   align-items: flex-start;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    }
 `
 
 export const SkillsSection = () => {

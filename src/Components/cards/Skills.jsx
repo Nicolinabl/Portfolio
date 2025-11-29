@@ -17,6 +17,15 @@ const SkillsContainer = styled.div`
   &:last-child {
     border-right: none;
   }
+
+  @media (max-width: 1024px) {
+    border-right: none;
+    border-bottom: 2px solid #505b4d;
+    height: auto;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
 `
 
 export const Skills = ({ title, items }) => {

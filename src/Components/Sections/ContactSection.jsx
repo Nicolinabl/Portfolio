@@ -11,6 +11,10 @@ const ContactContainer = styled.div`
   gap: 64px;
   align-self: stretch;
   justify-content: center;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `
 const ContactHeading = styled.div`
   margin-bottom: 32px;

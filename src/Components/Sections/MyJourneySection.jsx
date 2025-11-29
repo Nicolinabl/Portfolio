@@ -17,6 +17,8 @@ const MyJourneyContainer = styled.div`
   align-items: center;
   gap: 64px;
   align-self: stretch;
+  width: 100%;
+  margin: 0 auto;
 `
 
 const images = [
@@ -31,12 +33,24 @@ export const MyJourneySection = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2.5,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 786,
-        settings: { slidesToShow: 1}
+        breakpoint: 1024,
+        settings: { slidesToShow: 2 }
+      },
+      {
+        breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      },
+      {
+        breakpoint: 480,
+        settings: { slidesToShow: 1 }
+      },
+      {
+        breakpoint: 320,
+        settings: { slidesToShow: 1 }
       }
     ]
   }

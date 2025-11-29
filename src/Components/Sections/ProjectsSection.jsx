@@ -12,11 +12,13 @@ import "slick-carousel/slick/slick-theme.css"
 
 const ProjectContainer = styled.div`
   display: flex;
-  padding: 64px 0;
+  padding: 64px 16px;
   flex-direction: column;
   align-items: center;
   align-self: stretch;
   gap: 64px;
+  width: 100%;
+  margin: 0 auto;
 `
 
 const images = [
@@ -31,11 +33,23 @@ export const ProjectsSection = () => {
     dots: true,               // shows navigation dots
     infinite: true,           // loops infinitely
     speed: 500,               // animation speed
-    slidesToShow: 3,          // how many slides are visible at once
+    slidesToShow: 2.5,          // how many slides are visible at once
     slidesToScroll: 1,        // slides to scroll per swipe
     responsive: [             // responsive breakpoints
       {
+        breakpoint: 1024,
+        settings: { slidesToShow: 2 }
+      },
+      {
         breakpoint: 768,
+        settings: { slidesToShow: 1 }
+      },
+      {
+        breakpoint: 480,
+        settings: { slidesToShow: 1 }
+      },
+      {
+        breakpoint: 320,
         settings: { slidesToShow: 1 }
       }
     ]

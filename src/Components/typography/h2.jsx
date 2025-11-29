@@ -8,6 +8,10 @@ const SecondHeading = styled.h2`
   font-weight: 700;
   line-height: normal;
   margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 60px;
+  }
 `
 
 export const H2 = ({children}) => {
