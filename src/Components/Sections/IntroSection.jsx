@@ -6,6 +6,9 @@ import styled from 'styled-components'
 
 const Hero = styled.header`
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
   padding: 128px 128px 64px 128px;
   justify-content: space-evenly;
   align-items: center;
@@ -13,32 +16,39 @@ const Hero = styled.header`
 
   @media (max-width: 1024px) {
     flex-direction: column;
+    text-align: center;
     padding: 64px 32px 32px 32px;
   }
 
   @media (max-width: 480px) {
-    padding: 32px 16px 16px 16px;
+    padding: 32px 16px 16px;
     text-align: center;
   }
 `
 
 const TextContainer = styled.div`
   display: flex;
-  width: 580px;
+  max-width: 580px;
   flex-direction: column;
   align-items: flex-start;
 
   @media (max-width: 768px) {
-    width: 100%;
     align-items: center;
+}
 `
 
 const ImageContainer = styled.div`
   display: flex;
   padding: 128px 128px 64px 128px;
-  justify-content: space-between;
   align-items: center;
-  align-self: stretch;
+
+    @media (max-width: 1024px) {
+    padding: 64px 32px 32px 32px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 32px 16px 16px;
+  }
 `
 const InfoText = styled.div`
   margin-top: 32px;
@@ -55,9 +65,9 @@ export const IntroSection = () => {
       </InfoText>
       <IconCollection />
     </TextContainer>
-    <div>
+    <ImageContainer>
       <ProfileImage />
-    </div>
+    </ImageContainer>
     </Hero>
   )
 }

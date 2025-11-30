@@ -28,7 +28,7 @@ export const SkillsSection = () => {
   const skillsData = [
     {
       title: 'Code',
-      items: ['JavaScript ES6', 'TypeScript', 'HTML5', 'CSS3']
+      items: ['JavaScript ES6', 'TypeScript', 'HTML5', 'CSS3', 'React', 'Styled Components']
     },
     {
       title: 'Toolbox',
@@ -36,11 +36,11 @@ export const SkillsSection = () => {
     },
     {
       title: 'Upcoming',
-      items: ['Node.js', 'React']
+      items: ['Node.js', 'MongoDB']
     },
     {
       title: 'More',
-      items: ['Agile Methodology', 'Accessibility (WCAG)', 'Team coordination']
+      items: ['Agile Methodology', 'Accessibility (WCAG)', 'Team coordination', 'Communication']
     }
   ]
 

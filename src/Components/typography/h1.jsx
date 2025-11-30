@@ -12,6 +12,10 @@ const Heading = styled.h1`
   @media (max-width: 1024px) {
     font-size: 80px;
   }
+
+  @media (max-width: 370px) {
+    font-size: 60px;
+  }
 `
 
 export const H1 = ({children}) => {

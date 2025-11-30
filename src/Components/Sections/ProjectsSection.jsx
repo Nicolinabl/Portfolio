@@ -16,6 +16,7 @@ const ProjectContainer = styled.div`
   flex-direction: column;
   align-items: center;
   align-self: stretch;
+  text-align: center;
   gap: 64px;
   width: 100%;
   margin: 0 auto;

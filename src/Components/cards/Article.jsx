@@ -10,7 +10,7 @@ const ArticleContainer = styled.div`
   min-width: 280px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  // align-items: flex-start;
   gap: 24px;
   padding: 16px;
   margin: 16px;
@@ -29,7 +29,7 @@ const ArticleImage = styled.img`
 export const Article = (props) => {
   return(
     <ArticleContainer>
-      <img src={props.imgSrc} alt={props.title} className="articleImage"/>
+      <ArticleImage src={props.imgSrc} alt={props.title} className="articleImage"/>
       <Body>{props.date}</Body>
       <H3>{props.title} </H3>
       <Body>{props.text}</Body>

@@ -11,13 +11,14 @@ const ProjectTemplate = styled.div`
   min-width: 280px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  // align-items: flex-start;
   gap: 24px;
   padding: 16px;
   margin: 16px;
 
   @media (max-width: 1024px) {
     align-items: center;
+  }
 `
 const ProjectImage = styled.img`
   width: 100%;
@@ -39,7 +40,7 @@ const Buttons = styled.div`
 export const Project = (props) => {
   return (
     <ProjectTemplate>
-      <img src={props.imgSrc} alt={props.name} className='projectImage' />
+      <ProjectImage src={props.imgSrc} alt={props.name} className='projectImage' />
       <H3>{props.name}</H3>
       <Body>{props.description}</Body>
       <Buttons>

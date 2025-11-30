@@ -12,9 +12,10 @@ import "slick-carousel/slick/slick-theme.css"
 
 const MyJourneyContainer = styled.div`
   display: flex;
-  padding: 64px 0;
+  padding: 64px 16px;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 64px;
   align-self: stretch;
   width: 100%;
