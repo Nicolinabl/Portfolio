@@ -52,6 +52,34 @@
       "description":"Recipe app fetching recipes from spoonacular API. Options to display recipes according to chosen filters and sorting options. Taps into saved backup collection of recipes if daily quota of API is reached.  HTML, CSS, JavaScript, Spoonacular API.",
       "netlify": "https://nicolina-recipe-library.netlify.app/",
       "github": "https://github.com/Nicolinabl/js-project-recipe-library"
+    },
+    {
+      "name": "Happy Thoughts",
+      "image": "",
+      "tags": [
+        "HTML5",
+        " CSS3",
+        " JavaScript",
+        " React",
+        " APIs"
+      ],
+      "description":"Happy thoughts site where users can post short messages and like other users' messages. Built with React. Focus on component-based architecture and state management.",
+      "netlify": "https://happy-thoughts-nicolina.netlify.app/",
+      "github": "https://github.com/Nicolinabl/Happy-thoughts"
+    },
+    {
+      "name": "Movie site",
+      "image": "",
+      "tags": [
+        "HTML5",
+        " CSS3",
+        " JavaScript",
+        " React",
+        " APIs"
+      ],
+      "description":"Movie site fetching data from The Movie Database (TMDb) API. Users can view movie details. Built with React to practice hooks and routing.",
+      "netlify": "https://project-movies-nj.netlify.app/",
+      "github": "https://github.com/julialindstrand/js-project-movies"
     }
   ]
 }
