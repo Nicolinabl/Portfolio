@@ -9,7 +9,7 @@ export const Main = () => {
       <SkillsSection />
       <ProjectsSection />
       <TechSection />
-      <MyJourneySection />
+      {/* <MyJourneySection />  */} {/* Temporarily removed */}
     </main>
   )
 }

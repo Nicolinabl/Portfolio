@@ -3,6 +3,8 @@ import weatherApp from '../../Assets/weatherApp.png'
 import recipeLibrary from '../../Assets/recipeLibrary.png'
 import businessSite from '../../Assets/businessSite.png'
 import eventFinder from '../../Assets/eventFinder.png'
+import happy from '../../Assets/happy.png'
+import movie from '../../Assets/movie.png'
 import data from '../../data/projects.json'
 import { H2 } from '../typography/h2'
 import styled from 'styled-components'
@@ -26,7 +28,9 @@ const images = [
   businessSite,
   weatherApp,
   eventFinder, 
-  recipeLibrary
+  recipeLibrary,
+  happy,
+  movie
 ]
 
 export const ProjectsSection = () => {

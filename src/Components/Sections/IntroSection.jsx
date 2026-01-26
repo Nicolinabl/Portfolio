@@ -9,7 +9,7 @@ const Hero = styled.header`
   flex-direction: row;
   justify-content: center;
   text-align: left;
-  padding: 128px 128px 64px 128px;
+  padding: 128px 0 64px 0;
   justify-content: space-evenly;
   align-items: center;
   align-self: stretch;
@@ -39,7 +39,7 @@ const TextContainer = styled.div`
 
 const ImageContainer = styled.div`
   display: flex;
-  padding: 128px 128px 64px 128px;
+  padding: 0 0 0 50px;
   align-items: center;
 
     @media (max-width: 1024px) {
@@ -57,18 +57,18 @@ const InfoText = styled.div`
 export const IntroSection = () => {
   return (
     <Hero>
-    <TextContainer>
-      <Body size='30px'>I am Nicolina Bäcklin Löwenberg</Body>
-      <H1>Web developer</H1>
-      <InfoText>
-        <Body>Web developer and licensed veterinary nurse. Super excited to make ideas come to life and build projects with impact. I believe in constant learning and showing up fully prepared. Combining my skillsets as a developer and veterinary nurse to bridge the gap between tech and human.</Body>
-      </InfoText>
-      <IconCollection />
-    </TextContainer>
-    <ImageContainer>
-      <ProfileImage />
-    </ImageContainer>
+      <TextContainer>
+        <Body size='30px'>I am Nicolina Bäcklin Löwenberg</Body>
+        <H1>Web developer</H1>
+        <InfoText>
+          <Body>Web developer and licensed veterinary nurse. Super excited to make ideas come to life and build projects with impact. I believe in constant learning and showing up fully prepared. Combining my skillsets as a developer and veterinary nurse to bridge the gap between tech and human.</Body>
+        </InfoText>
+        <IconCollection />
+      </TextContainer>
+      <ImageContainer>
+        <ProfileImage />
+      </ImageContainer>
     </Hero>
   )
-}
+} 
 
