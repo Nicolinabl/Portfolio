@@ -5,6 +5,7 @@ import businessSite from '../../Assets/businessSite.png'
 import eventFinder from '../../Assets/eventFinder.png'
 import happy from '../../Assets/happy.png'
 import movie from '../../Assets/movie.png'
+import todo from '../../Assets/todo.png'
 import data from '../../data/projects.json'
 import { H2 } from '../typography/h2'
 import styled from 'styled-components'
@@ -30,7 +31,8 @@ const images = [
   eventFinder, 
   recipeLibrary,
   happy,
-  movie
+  movie,
+  todo
 ]
 
 export const ProjectsSection = () => {

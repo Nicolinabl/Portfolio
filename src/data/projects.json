@@ -80,6 +80,20 @@
       "description":"Movie site fetching data from The Movie Database (TMDb) API. Users can view movie details. Built with React to practice hooks and routing.",
       "netlify": "https://project-movies-nj.netlify.app/",
       "github": "https://github.com/julialindstrand/js-project-movies"
+    },
+    {
+      "name": "Todo app",
+      "image": "",
+      "tags": [
+        "HTML5",
+        " CSS3",
+        " JavaScript",
+        " React",
+        " Zustand"
+      ],
+      "description":"Simple personal planner. Lets the user add tasks on a todo list. Possibility to check and uncheck tasks as complete, all tasks can be deleted. Total count of tasks listed on top. React project built using Zustand for state management.",
+      "netlify": "https://get-it-done-todo.netlify.app/",
+      "github": "https://github.com/Nicolinabl/todo-app"
     }
   ]
 }
